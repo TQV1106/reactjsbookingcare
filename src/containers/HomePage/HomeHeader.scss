@@ -1,0 +1,184 @@
+.home-header-container {
+    height: 60px;
+    width: 100%;
+    padding: 0 40px;
+
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .left-content{
+            width: 20%;
+            display: flex;
+            align-items: center;
+            i {
+                font-size: 25px;
+                color: gray;
+                cursor: pointer;
+
+            }
+        
+            .header-logo {
+              
+                height: 100%;
+                width: 100%;
+                cursor: pointer;
+                transform: scale(0.5, 0.5);
+                margin-left: -68px;
+
+            }
+        }
+        .center-content{
+            width: 55%;
+          
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .child-content {
+                .subs-title {
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+
+        }
+        .right-content{
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .support {
+                padding-right: 50px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                i {
+                    font-size: 24px;
+                    margin-right: 5px;
+                }
+            }
+
+            .language-vi {
+                cursor: pointer;
+                &.active {
+                    color: orange;
+                }
+            }
+
+            .language-en {
+                margin:  0 10px;
+                cursor: pointer;
+                &.active {
+                    color: blue;
+                }
+            }
+
+        }
+    }
+}
+
+.home-header-banner {
+    background-image:url('../../assets/header-background.jpg');
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+
+
+
+    .content-up {
+       
+        padding-top: 15px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(255, 255, 255, 0.1));
+        height: 65%;
+        .title1 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 5px;
+            color: white;
+            margin-top: 30px;
+        }
+        .title2 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            margin-bottom: 15px;
+    
+        }
+        .search {
+            
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 25px;
+            background-color: #f7d800;
+    
+            i {
+                margin: 0 5px;
+    
+            }
+    
+            input {
+                height: 30px;
+                width: 360px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+    .content-down {
+        border: 1px solid green($color: #000000);
+        height: 35%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 1));;
+        .options {
+            
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            
+            .option-child {
+                width: 100px;
+                .icon-child {
+                    background: white;
+                    cursor: pointer;
+                    width: 40px;
+                    height: 40px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin: 0 auto;
+                    i {
+                        color: #49bce2;
+                        font-size: 20px;
+                    }
+                }
+
+                .text-child {
+                    font-weight: 500;
+                    font-size: 17px;
+                    cursor: pointer;
+                     
+                    &:hover {
+                        color: #49bce2;
+                    }
+                }
+            }
+        }
+    }
+    
+}
