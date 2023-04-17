@@ -2,6 +2,11 @@
     height: 60px;
     width: 100%;
     padding: 0 40px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10000;
+    border-bottom: 1px solid #eee7e7;
 
     .home-header-content {
         width: 100%;
@@ -179,6 +184,7 @@
                     border-radius: 50%;
                     text-align: center;
                     margin: 0 auto;
+                    box-shadow: 1px 1px #ebe8e8;
                     i {
                         color: #49bce2;
                         font-size: 20px;
