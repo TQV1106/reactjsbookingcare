@@ -27,14 +27,17 @@ class OutStandingDoctor extends Component {
   render() {
     let arrDoctors = this.state.arrDoctors;
     let { language } = this.props;
-    arrDoctors = arrDoctors.concat(arrDoctors).concat(arrDoctors);
 
     return (
       <div className="section-share section-outstanding-doctor section-specialty">
         <div className="section-container">
           <div className="section-header">
-            <span className="title-section">Bác sĩ nổi bật tuần qua</span>
-            <button className="btn-section">xem thêm</button>
+            <span className="title-section">
+              <FormattedMessage id="homepage.out-standing-doctor" />
+            </span>
+            <button className="btn-section">
+              <FormattedMessage id="homepage.more-info" />
+            </button>
           </div>
           <div className="section-body ">
             <Slider {...this.props.settings}>
@@ -48,7 +51,7 @@ class OutStandingDoctor extends Component {
                     );
                   }
 
-                  let nameVi = `${item.positionData.valueVi}, ${item.firstName} ${item.lastName}`;
+                  let nameVi = `${item.positionData.valueVi},${item.lastName} ${item.firstName} `;
                   let nameEn = `${item.positionData.valueEn}, ${item.firstName} ${item.lastName}`;
                   return (
                     <div className="section-customize" key={index}>

@@ -27,6 +27,10 @@
     }
 }
 
+.slick-disabled {
+    display: none !important;
+}
+
 .section-share {
 
     &.section-specialty {
@@ -50,6 +54,7 @@
             .customize-border {
                 border: 1px solid red ;
                 padding: 20px;
+                max-height: 214px;
             }
             .bg-image {
                 width: 278px;
