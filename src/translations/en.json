@@ -68,5 +68,14 @@
         "save": "Save"
 
 
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "schedule",
+            "no-schedule": "No schedule",
+            "choose": "Choose ",
+            "book-free": " and book (free)"
+
+        }
     }
 }
