@@ -76,6 +76,14 @@
             "choose": "Choose ",
             "book-free": " and book (free)"
 
+        },
+        "extra-infor-doctor": {
+            "text-address": "address",
+            "price": "Price: ",
+            "detail": "Detail",
+            "payment": " You can pay by: ",
+            "hide-price": "Hide price"
+
         }
     },
     "admin": {
