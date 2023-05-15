@@ -84,6 +84,22 @@
             "payment": " You can pay by: ",
             "hide-price": "Hide price"
 
+        },
+        "booking-modal": {
+            "title": "Imformation",
+            "fullName": "Fullname",
+            "phoneNumber": "Phone number",
+            "email": "Email",
+            "address": "Address",
+            "reason": "Reasons",
+            "birthday": "Date of birth",
+            "gender": "Gender",
+            "btnConfirm": "Confirm",
+            "btnCancel": "Cancel",
+            "priceBooking": "Free booking",
+            "price": "Price: "
+
+
         }
     },
     "admin": {
