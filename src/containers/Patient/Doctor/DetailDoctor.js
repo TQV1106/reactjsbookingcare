@@ -27,7 +27,7 @@ class DetailDoctor extends Component {
         currentDoctorId: id,
       });
       let res = await getDetaiInforDoctor(id);
-      console.log("check res: ", res);
+
       if (res && res.errCode === 0) {
         this.setState({
           detailDoctor: res.data,
